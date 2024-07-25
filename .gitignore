@@ -8,7 +8,6 @@ server/cert/*.csr
 server/cert/*.der
 server/cert/*.srl
 server/cert/*.conf
-server/*/Cargo.lock
 server/*/my_id
 server/target
 server/*/cluster/*
@@ -30,3 +29,8 @@ server/.DS_Store
 /server/kafka-cluster/kafka-logs/*
 /server/msgprocessor/config.toml
 /server/kafka-cluster/compose/*
+
+# IDE config
+.vscode
+.fleet
+.idea
